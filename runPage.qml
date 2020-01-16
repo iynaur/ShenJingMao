@@ -147,8 +147,8 @@ Image {
         transformOrigin: Item.TopLeft
 
         // To ensure the cat always set in center
-        x: container.width / 2 - diameter
-        y: container.height - 4*stepLen - diameter - height*scale
+        x: container.width / 2 - diameter + 5
+        y: container.height - 4*stepLen - diameter - height*scale + 15
         Behavior on x {
             NumberAnimation{ duration: 200 }
         }
