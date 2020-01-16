@@ -2,7 +2,7 @@ import QtQuick 2.0
 
 Item {
     id: container
-    property int mode: 1
+    property int mode: 2
 //    height: 140
 //    width:  320
     state: "inactive"

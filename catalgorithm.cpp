@@ -4,7 +4,7 @@
 #include <iostream>
 
 CatAlgorithm::CatAlgorithm(QObject *parent) :
-    QObject(parent), m_hardLv(Eazy), m_helper(new Helper)
+    QObject(parent), m_hardLv(Normal), m_helper(new Helper)
 {
 }
 
