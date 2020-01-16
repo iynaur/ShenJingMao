@@ -160,18 +160,18 @@ Image {
             Sprite {
                 id: sprite
                 name: "cat"
-                source: "qrc:///images/stay.png"
-                frameWidth: 61
-                frameHeight: 93
-                frameCount: 16
+                source: "qrc:///images/cat.png"
+                frameWidth: 50
+                frameHeight: 71
+                frameCount: 1
                 frameDuration: 120
             },
             Sprite {
                 name: "weizhu"
-                source: "qrc:///images/weizhu.png"
-                frameWidth: 64
-                frameHeight: 91
-                frameCount: 15
+                source: "qrc:///images/cat.png"
+                frameWidth: 50
+                frameHeight: 71
+                frameCount: 1
                 frameDuration: 80
             }
         ]
